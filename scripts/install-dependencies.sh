@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo yum install -y httpd mariadb-105 php
+sudo yum install -y httpd mariadb105-server php
