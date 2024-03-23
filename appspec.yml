@@ -14,7 +14,7 @@ hooks:
       runas: root
   ApplicationStart:
     - location: scripts/start-server.sh
-    - location: scripts/create-test_db.sh
+    - location: scripts/create-test-db.sh
       timeout: 300
       runas: root
   ApplicationStop:
